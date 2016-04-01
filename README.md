@@ -1,2 +1,2 @@
 # iFinances
-Proyecto fin de grado.
+Proyecto.
