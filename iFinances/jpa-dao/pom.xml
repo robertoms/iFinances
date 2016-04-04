@@ -16,35 +16,21 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <dependencies>
-   <!-- Hibernate -->
-    <dependency>
-      <groupId>org.hibernate</groupId>
-   	  <artifactId>hibernate-entitymanager</artifactId>
-      <version>5.1.0.Final</version>
+    
+	<!-- for JPA, use hibernate-entitymanager instead of hibernate-core -->
+	<dependency>
+    	<groupId>org.hibernate</groupId>
+    	<artifactId>hibernate-entitymanager</artifactId>
+    	<version>5.1.0.Final</version>
 	</dependency>
-    <!-- Spring -->
-   
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>4.0.6.RELEASE</version>
-        </dependency>        
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-orm</artifactId>
-            <version>4.0.6.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-test</artifactId>
-            <version>4.0.6.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-web</artifactId>
-            <scope>compile</scope>
-            <version>4.0.6.RELEASE</version>
-        </dependency>
+       
+    
+   <!-- Spring ORM -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>4.2.5.RELEASE</version>
+    </dependency> 
    
     <!-- jpa-modelutil -->
     <dependency>
